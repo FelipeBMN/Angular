@@ -2,3 +2,35 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.red {
+    color: rgb(227, 94, 107);
+}
+
+.orange {
+    color: #F7A746;
+}
+
+.black {
+    color: #3c3c3b;
+}
+
+.blue{
+    color: #A7d6f5;
+}
+
+.white{
+    color: #E8E8E8;
+}
+
+.blue-ice{
+    color: dodgerblue;
+}
+
+.gray {
+    color: dimgray;
+}
+
+.v-middle {
+    vertical-align: middle;
+}
