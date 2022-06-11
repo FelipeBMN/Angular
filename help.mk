@@ -46,3 +46,13 @@ Na pasta frontend:
 Gerando componente:
 
     ng g c components/template/header
+
+Criando Service:
+
+    ng g s server/product
+
+## ReativeX
+
+Implementar no arquivo app.modelo.ts:
+
+    import { Observable } from "xrjs";

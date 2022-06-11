@@ -13,3 +13,11 @@
 .header .logo {
     max-height: 40px;
 }
+
+.header .title-groups {
+    margin-left: 30px;
+}
+
+.header .title-groups i{
+    margin-right: 10px;
+}
