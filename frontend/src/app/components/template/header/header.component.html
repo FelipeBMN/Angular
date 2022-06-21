@@ -4,12 +4,17 @@
             <img class="logo" src="assets\logo.png" alt="logo">
         </a>
     </span>
-    <span class="title-groups">
-        <a>
-            <i class="material-icons">home</i>
-            <strong>
-                Home
-            </strong>
-        </a>
-    </span>
+    <div class="title-menu">
+        <span class="title-groups">
+            <a>
+                <i class="material-icons">home</i>
+                <strong class="title" >
+                    Home
+                </strong>
+            </a>
+        </span>
+        <button class="btn-mobile" (click)="toggleMenu()">
+            menu
+        </button>
+    </div>
 </mat-toolbar>

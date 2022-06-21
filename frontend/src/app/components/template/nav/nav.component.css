@@ -1,4 +1,4 @@
-.sidenav{
+.sidenav {
     background-color: #F7A746;
     width: 200px;
 }
@@ -14,4 +14,23 @@
 .content {
     padding: 16px;
     background-color: white;
+}
+
+@media (max-width: 600px) {
+
+    .sidenav {
+        display: none;
+        position: fixed;
+        height: 0px;
+        margin-left: 0px;
+        margin-top: -7px;
+        transition: .2s;
+        z-index: 10;
+    }
+
+    .active {
+        display: flex;
+        height: calc(100vh - 7px);
+    }
+
 }
