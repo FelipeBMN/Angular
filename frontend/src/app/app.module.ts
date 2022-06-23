@@ -8,10 +8,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/template/header/header.component';
 import { NavComponent } from './components/template/nav/nav.component';
 import { FooterComponent } from './components/template/footer/footer.component';
-import { SettingsCreateComponent } from './components/settings/settings-create/settings-create.component';
 
 import { HomeComponent } from './views/home/home.component';
-import { SettingsComponent } from './views/settings/settings.component';
 
 import { BlueIceDirective } from './directives/blue-ice.directive';
 
@@ -22,7 +20,9 @@ import { MatListModule } from '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 
-import {HttpClientModule} from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { ProductsCreateComponent } from './components/products/products-create/products-create.component';
+import { ProductsComponent } from './views/products/products.component'
 
 @NgModule({
   declarations: [
@@ -31,9 +31,9 @@ import {HttpClientModule} from '@angular/common/http'
     FooterComponent,
     NavComponent,
     HomeComponent,
-    SettingsComponent,
     BlueIceDirective,
-    SettingsCreateComponent,
+    ProductsCreateComponent,
+    ProductsComponent,
   ],
   imports: [
     BrowserModule,

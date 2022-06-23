@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent } from './views/home/home.component';
-import { SettingsComponent } from './views/settings/settings.component';
-import { SettingsCreateComponent } from './components/settings/settings-create/settings-create.component';
+import { ProductsComponent } from './views/products/products.component';
+import { ProductsCreateComponent } from './components/products/products-create/products-create.component';
 
 const routes: Routes = [
   {
@@ -11,12 +11,12 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: "settings",
-    component: SettingsComponent
+    path: "products",
+    component: ProductsComponent
   },
   {
-    path: "settings/create",
-    component: SettingsCreateComponent
+    path: "products/create",
+    component: ProductsCreateComponent
   }
 ];
 

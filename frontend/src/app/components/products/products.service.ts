@@ -1,4 +1,4 @@
-import { Setting } from './settings.model';
+import { Product } from './products.model';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
@@ -20,7 +20,7 @@ export class SettingsService {
       horizontalPosition: "right"
     })
   }
-  create(setting: Setting): Observable<Setting> {
-    return this.http.post<Setting>(this.baseUrl, setting)
+  create(product: Product): Observable<Product> {
+    return this.http.post<Product>(this.baseUrl, product)
   }
 }
