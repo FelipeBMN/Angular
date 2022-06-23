@@ -11,10 +11,11 @@ export class ProductsComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit(): void {
+
   }
 
-  navigateToProductsCreate(): void {
+  navigateToProductCreate(): void {
     this.router.navigate(['/products/create'])
   }
-}
 
+}

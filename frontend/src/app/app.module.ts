@@ -32,8 +32,8 @@ import { ProductsComponent } from './views/products/products.component'
     NavComponent,
     HomeComponent,
     BlueIceDirective,
-    ProductsCreateComponent,
     ProductsComponent,
+    ProductsCreateComponent,
   ],
   imports: [
     BrowserModule,
