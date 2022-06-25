@@ -22,13 +22,18 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 import { HttpClientModule } from '@angular/common/http';
 import { ProductsCreateComponent } from './components/products/products-create/products-create.component';
-import { ProductsComponent } from './views/products/products.component'
+import { ProductsComponent } from './views/products/products.component';
+
+import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent,
+    FooterComponent, 
     NavComponent,
     HomeComponent,
     BlueIceDirective,
@@ -45,7 +50,10 @@ import { ProductsComponent } from './views/products/products.component'
     MatCardModule,
     MatButtonModule,
     MatSnackBarModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

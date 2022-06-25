@@ -1,0 +1,14 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-right: 15px;
+}
+
+.save {
+    background-color: #F7A746;
+    color: #3c2204;
+}
+
