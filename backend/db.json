@@ -1,14 +1,9 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Urbansol",
-      "price": 5000000
-    },
-    {
-      "name": "",
-      "price": null,
-      "id": 2
+      "name": "Felipe",
+      "price": "100000000000000000",
+      "id": 1
     }
   ]
 }
