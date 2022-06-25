@@ -2,6 +2,12 @@ table {
     width: 100%;
 }
 
-.delete-icon {
-    margin-left: 20px;
+
+
+
+@media (max-width: 600px) {
+    .delete-ico {
+        display: flex;
+        flex-direction: column;
+    }
 }

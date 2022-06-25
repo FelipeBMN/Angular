@@ -1,3 +1,9 @@
 {
-  "products": []
+  "products": [
+    {
+      "name": "Felipe Bruno Moreira Nunes",
+      "price": "1747294839",
+      "id": 1
+    }
+  ]
 }
