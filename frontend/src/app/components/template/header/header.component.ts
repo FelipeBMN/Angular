@@ -27,7 +27,11 @@ export class HeaderComponent implements OnInit {
   }
 
   toggleMenu(): void{
+    if(event.type === 'touchstart') event.preventDefault();
     const nav = document.getElementById('nav')
+    const ham = document.getElementById('hamburger')
     nav?.classList.toggle('active')
+    ham?.classList.toggle('active')
   }
+
 }

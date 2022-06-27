@@ -31,12 +31,17 @@ import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 
+/** Para colocar moeda do jeito correto----------- */
 import { LOCALE_ID } from '@angular/core';
 import localePt from '@angular/common/locales/pt';
+registerLocaleData(localePt)
+/**----------------------------------------------- */
+
 import { registerLocaleData  } from '@angular/common';
 import { ProductsUpdateComponent } from './components/products/products-update/products-update.component';
 import { ProductsDeleteComponent } from './components/products/products-delete/products-delete.component';
-registerLocaleData(localePt)
+import { VendasComponent } from './views/vendas/vendas.component';
+
 
 @NgModule({
   declarations: [
@@ -51,6 +56,7 @@ registerLocaleData(localePt)
     ProductsReadComponent,
     ProductsUpdateComponent,
     ProductsDeleteComponent,
+    VendasComponent,
   ],
   imports: [
     BrowserModule,
