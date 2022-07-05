@@ -7,7 +7,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "start": "json-server --watch db.json --port 3001 --host 192.168.100.34"
+    "start": "json-server --watch db.json --port 3001 --host 192.168.100.24"
   },
   "keywords": [],
   "author": "",

@@ -10,7 +10,7 @@ import { catchError, EMPTY, Observable } from 'rxjs';
 })
 export class ProductsService {
 
-  baseUrl = "http://192.168.100.34:3001/products";
+  baseUrl = "http://192.168.100.24:3001/products";
 
   constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
 
